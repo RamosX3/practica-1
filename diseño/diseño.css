@@ -1,0 +1,25 @@
+/*Las clases se pueden compartir dependiendo las propiedades, las mas comunes son color, 
+fonde size entre otras se le puede asignar una clase a una etiqueta que aplica algun estilo y 
+ posteriro mente se puede utilizar estando sola sin que afecte a lo demas */
+body {
+    background-color: cadetblue;
+}
+.segunda , .primera {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.segunda, .primera {
+    font-size: 30px;
+
+}
+
+.primera:hover{
+    text-decoration: underline 15px yellow
+
+}
+.segunda:hover {
+    text-decoration:underline 15px rgb(221, 17, 221)
+    
+}
+
